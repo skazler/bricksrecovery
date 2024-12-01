@@ -1,6 +1,6 @@
-# Quote Generator
+# ACL Recovery Guidance
 
-Generates quotes for getting through ACL recovery.
+Guidance for ACL surgery recovery.
 
 ## Running the App
  ```
