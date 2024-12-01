@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@rneui/themed": "^4.0.0-rc.8",
+    "react-native-ui-devkit": "^2.0.8"
+  }
+}
