@@ -1,13 +1,16 @@
-import { StyleSheet, Image, Platform } from 'react-native';
+import { StyleSheet, Image } from 'react-native';
 
 import { Collapsible } from '@/components/Collapsible';
-import { ExternalLink } from '@/components/ExternalLink';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { IconSymbol } from '@/components/ui/IconSymbol';
+import { Button } from 'react-native';
+import { useRouter } from 'expo-router';
 
 export default function TabTwoScreen() {
+  const router = useRouter();
+  const RegainingStrengthExercises = '../screens/regainingStrength/regainingStrengthExercises';
+
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
@@ -32,9 +35,7 @@ export default function TabTwoScreen() {
         </ThemedText>
       </Collapsible>
       <Collapsible title="Regaining strength and coordination">
-      <ThemedText>
-          Coming Soon
-        </ThemedText>
+        <Button title="Exercises" onPress={() => router.push(RegainingStrengthExercises)} />
       </Collapsible>
       <Collapsible title="Return to sport">
       <ThemedText>
