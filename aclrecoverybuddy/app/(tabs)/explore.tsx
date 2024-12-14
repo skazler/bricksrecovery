@@ -6,10 +6,12 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { Button } from 'react-native';
 import { useRouter } from 'expo-router';
+import Spacer from '@/components/Spacer';
 
 export default function TabTwoScreen() {
   const router = useRouter();
   const RegainingStrengthExercises = '../screens/regainingStrength/regainingStrengthExercises';
+  const RehabPlannerAndLog = '../screens/rehabPlannerAndLog/rehabPlannerAndLog';
 
   return (
     <ParallaxScrollView
@@ -21,23 +23,25 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Explore</ThemedText>
+        <ThemedText type="title">Drop In</ThemedText>
       </ThemedView>
-      <ThemedText>Which phase of recovery are you in?</ThemedText>
-      <Collapsible title="Post surgery">
+      <ThemedText>How can I help?</ThemedText>
+      <Collapsible title="Rehab">
+        <Button title="Planner & Log" onPress={() => router.push(RehabPlannerAndLog)} />
+          <Spacer height={10}/>
+        <Button title="Exercises" onPress={() => router.push(RegainingStrengthExercises)} />
+      </Collapsible>
+      <Collapsible title="Reading & video recommendations">
         <ThemedText>
           Coming Soon
         </ThemedText>
       </Collapsible>
-      <Collapsible title="Regaining mobility">
-      <ThemedText>
+      <Collapsible title="Daily quote">
+        <ThemedText>
           Coming Soon
         </ThemedText>
       </Collapsible>
-      <Collapsible title="Regaining strength and coordination">
-        <Button title="Exercises" onPress={() => router.push(RegainingStrengthExercises)} />
-      </Collapsible>
-      <Collapsible title="Return to sport">
+      <Collapsible title="More coming soon">
       <ThemedText>
           Coming Soon
         </ThemedText>
