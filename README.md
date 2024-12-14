@@ -1,12 +1,12 @@
-# ACL Recovery Guidance
+# ACL Recovery Buddy
 
-Guidance for ACL surgery recovery. <mark>App is a work in progress!</mark>
+A buddy for ACL injury recovery. <mark>App is a work in progress!</mark>
 
-![Alt text](/aclrecoveryguidance/assets/images/front-page.png "Front page")
-![Alt text](/aclrecoveryguidance/assets/images/explore-page.png "explore page")
+![Alt text](/aclrecoverybuddy/assets/images/front-page.png "Front page")
+![Alt text](/aclrecoverybuddy/assets/images/explore-page.png "explore page")
 
 ## Running the App
-Navigate to the aclrecoveryguidance subfolder. Then run:
+Navigate to the aclrecoverybuddy subfolder. Then run:
  ```
  npm run web
 ```
