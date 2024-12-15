@@ -12,6 +12,7 @@ export default function TabTwoScreen() {
   const router = useRouter();
   const RegainingStrengthExercises = '../screens/regainingStrength/regainingStrengthExercises';
   const RehabPlannerAndLog = '../screens/rehabPlannerAndLog/rehabPlannerAndLog';
+  const Reminders = '../screens/reminders/reminders';
 
   return (
     <ParallaxScrollView
@@ -40,6 +41,9 @@ export default function TabTwoScreen() {
         <ThemedText>
           Coming Soon
         </ThemedText>
+      </Collapsible>
+      <Collapsible title="Set reminders for yourself">
+      <Button title="Set reminders" onPress={() => router.push(Reminders)} />
       </Collapsible>
       <Collapsible title="More coming soon">
       <ThemedText>
