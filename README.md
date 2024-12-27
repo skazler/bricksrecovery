@@ -5,7 +5,7 @@ ACL Recovery Buddy is a tool to help you through your ACL recovery journey! Insp
 This is a work in progress!
 </b></p>
 
-## Design Progress
+## Progress Sneak Peak
 ![homepage](public/assets/home-page.png)
 ![dropinpage](public/assets/drop-in-page.png)
 
