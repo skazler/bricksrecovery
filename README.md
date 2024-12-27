@@ -12,7 +12,7 @@ This is a work in progress!
 ## My Story
 At the start of winter 2023, feeling lost with a life that was supposed to be "right" but didn't feel like it, I quit my stable 9-5 software engineering job and started working terrain parks at a ski resort. I was making less than half of what I used to make and living in my car, but I was the happiest and fittest I've ever been in my life.
 
-Then in March 2024, on duty at Breckenridge Ski Resort (day 88 of the season), I went off a usual jump in the Freeway terrain park. But this time, the snow was sticky and I knuckled it. My knee twisted out, popped, and gave out. I got back up and the knee popped again... That was probably the nail in the coffin.
+Then in March 2024, on duty at Breckenridge Ski Resort, I went off a usual jump in the Freeway terrain park. But this time, the snow was sticky and I knuckled it. My knee twisted out, popped, and gave out. I got back up and the knee popped again... That was probably the nail in the coffin.
 
 The leg wouldn't hold any weight, so I rode switch to patrol. They didn't think it was bad and sent me off with a brace and crutches. My MRI later said differently - complete ACL tear with an estimated 9 months recovery timeline. Sitting in that doctor's office, it felt like my world had come crashing down. I had put my stable life on the line to pursue a dream and it blew up in my face.
 
