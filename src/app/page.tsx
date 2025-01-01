@@ -30,7 +30,7 @@ export default function Home() {
           priority
         />
         <ol className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-            Welcome to your ACL recovery buddy.
+            Welcome to your injury recovery partner.
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">

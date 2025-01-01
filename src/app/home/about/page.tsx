@@ -14,6 +14,10 @@ export default function AboutPage() {
           priority
         />
         </main>
+
+        <footer style={{ textAlign: 'center', marginTop: '30px', fontSize: '14px' }}>
+        <p>&copy; 2025 Your Website Name. All Rights Reserved.</p>
+      </footer>
     </div>
   );
 }
