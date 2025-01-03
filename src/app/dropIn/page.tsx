@@ -14,6 +14,9 @@ export default function DropInPage() {
   const handleReadingMaterials = () => {
     router.push('/dropIn/readingMaterials');
   };
+  const handlePlanner = () => {
+    router.push('/dropIn/planner');
+  };
 
   return (
     <div className="flex flex-col h-screen justify-between" style={{ fontFamily: 'var(--font-geist-mono)', margin: '20px', padding: '20px', maxWidth: '800px', lineHeight: '1.6' }}>
@@ -45,7 +48,19 @@ export default function DropInPage() {
             Reading Materials
           </a>
         </div>
-        
+        <Spacer size="20px" />
+
+        <div className="flex gap-4 items-center flex-col sm:flex-row">
+          <a
+            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={handlePlanner}
+            style={{ cursor: 'pointer' }}
+          >
+            Planner
+          </a>
+        </div>
         <Spacer size="20px" />
       </div>
       
