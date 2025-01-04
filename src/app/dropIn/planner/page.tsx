@@ -6,7 +6,11 @@ import Spacer from "@/components/spacer";
 import AddExercise from '@/components/addExercise';
 import ExerciseCards from '@/components/exerciseCards';
 
-export default function PlannerPage() {
+type PlannerPageProps = {
+  setTrainingLog: React.Dispatch<React.SetStateAction<string[]>>;
+};
+
+const PlannerPage: React.FC<PlannerPageProps> = ({ setTrainingLog }) => {
   const [open, setOpen] = React.useState(false);
   const [inputValue, setInputValue] = React.useState('');
   const [contents, setContents] = React.useState<string[]>([]);
@@ -69,3 +73,5 @@ export default function PlannerPage() {
     </div>
   );
 }
+
+export default PlannerPage;

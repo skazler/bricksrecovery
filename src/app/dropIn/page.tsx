@@ -3,8 +3,10 @@
 import BackAndForwardButtons from "@/components/navigationButtons/backAndForwardButtons";
 import Spacer from "@/components/spacer";
 import { useRouter } from "next/navigation";
+import React from "react";
 
 export default function DropInPage() {
+  const [trainingLog, setTrainingLog] = React.useState<string[]>([]);
 
   const router = useRouter();
   const handleTrainingLog = () => {
