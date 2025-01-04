@@ -7,7 +7,7 @@ This is a work in progress!
 
 ## Progress Sneak Peak
 ![homepage](public/assets/home-page.png)
-![dropinpage](public/assets/drop-in-page.png)
+![dropinpage](public/assets/planner-page.png)
 
 ## My Story
 At the start of winter 2023, feeling lost with a life that was supposed to be "right" but didn't feel like it, I quit my stable 9-5 software engineering job and started working terrain parks at a ski resort. I was making less than half of what I used to make and living in my car, but I was the happiest and fittest I've ever been in my life.
