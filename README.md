@@ -6,7 +6,7 @@ This is a work in progress!
 </b></p>
 
 ## Progress Sneak Peak
-![homepage](public/assets/home-page.png)
+![homepage](public/assets/front-page.png)
 ![dropinpage](public/assets/planner-page.png)
 
 ## My Story
