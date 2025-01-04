@@ -2,11 +2,11 @@ import BackAndForwardButtons from "@/components/navigationButtons/backAndForward
 import Spacer from "@/components/spacer";
 import Image from "next/image";
 
-export default function AboutPage() {
+export default function TrainingLogPage() {
   return (
     <div className="flex flex-col h-screen justify-between" style={{ fontFamily: 'var(--font-geist-mono)', margin: '20px', padding: '20px', maxWidth: '800px', lineHeight: '1.6' }}>
       <div className="flex-grow">
-        <h1 style={{ fontSize: 23 }} >About</h1>
+        <h1 style={{ fontSize: 23 }}>Training Log</h1>
         <Spacer size="20px" />
 
         <main className="flex flex-col items-center sm:items-start">

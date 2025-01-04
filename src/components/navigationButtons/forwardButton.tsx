@@ -18,7 +18,8 @@ const ForwardButton: React.FC = () => {
         fontSize: 36,
         cursor: 'pointer',
         strokeWidth: 2,
-        stroke: 'currentColor'
+        stroke: 'currentColor',
+        '&:hover': { color: 'gray'}
       }}
     />
   );
