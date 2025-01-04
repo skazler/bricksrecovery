@@ -2,7 +2,6 @@ import Spacer from "@/components/spacer";
 import BackAndForwardButtons from "@/components/navigationButtons/backAndForwardButtons";
 
 export default function DisclaimerPage() {
-
   return (
     <div className="flex flex-col h-screen justify-between" style={{ fontFamily: 'var(--font-geist-mono)', margin: '20px', padding: '20px', maxWidth: '800px', lineHeight: '1.6' }}>
       
