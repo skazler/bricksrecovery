@@ -1,5 +1,5 @@
 ## Welcome!
-ACL Recovery Buddy is a tool to help you through your ACL recovery journey! Inspired and informed by my own ongoing rehab after ACL reconstruction surgery.
+Bricks Recovery is a tool to help you through your sports injury recovery journey. Inspired and informed by my own ongoing rehab after ACL reconstruction surgery.
 
 <p align="center"><b>
 This is a work in progress!
